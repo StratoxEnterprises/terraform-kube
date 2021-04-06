@@ -1,4 +1,4 @@
-helm_enabled: true
+#helm_enabled: true
 %{ if !cloud_provider_load_balancer }
 metallb:
   limits:
