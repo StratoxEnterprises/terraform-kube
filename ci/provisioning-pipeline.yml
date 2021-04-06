@@ -55,8 +55,8 @@ resources:
   type: git
   icon: github-circle
   source:
-    uri: https://github.com/totr/terraform-kube
-    branch: feature/digitalocean-flannel
+    uri: https://github.com/StratoxEnterprises/terraform-kube
+    branch: release/1.0.1
 
 - name: terraform-environments
   type: git
