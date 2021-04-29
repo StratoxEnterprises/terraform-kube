@@ -2,6 +2,14 @@ provider "digitalocean" {
   token = var.provider_client_secret
 }
 
+output "test_variable" {
+  value = var.default_box
+}
+
+output "test_condition" {
+  value = var.default_box ? 1 : 0
+}
+
 resource "digitalocean_project" "main" {
   count = var.default_box ? 1 : 0
   name      = var.project_name
